@@ -120,10 +120,10 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: black;
+    color: #FE0166;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: black;
 }
 
 /* menu btn styling */
@@ -245,7 +245,7 @@ section .title::after{
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FE0166;
+    border: 2px solid black;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -377,7 +377,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "Social Media Handles";
+    content: "Do follow me";
 }
 .teams .carousel .card{
     background: #222;
